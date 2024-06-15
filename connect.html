@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="images/speech.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VertexFlows</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/a11y-slider@latest/dist/a11y-slider.css" />
+    <link rel="stylesheet" href="styleForm.css">
+    <script src="https://kit.fontawesome.com/b0d7422f2a.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <header class="primary-header">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="index.html" alt="VertexFlows logo"><img src="images/logo.png" class="header-logo"></a>
+          <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+            <span class="visually-hidden">Menu</span>
+          </button>
+          <nav class="primary-navigation" id="primary-navigation">
+            <ul aria-label="Primary" role="list" class="nav-list">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="resources.html">Resources</a></li>
+              <li><a href="invest.html">Work With Me</a></li>
+              <li><a href="connect.html">Connect</a></li>
+            </ul>
+          </nav>
+          <div class="display-sm-none display-md-inline-flex">
+            <a href="contact.html"><button class="button | display-sm-none display-md-inline-flex">Get Started</button></a>
+          </div>
+        </div>
+      </div>
+    </header>
+    
+
+    <div class="container-fluid px-1 py-5 mx-auto">
+      <div class="row d-flex justify-content-center">
+        <div class="col-xl-7 col-lg-8 col-md-9 col-11 text-center">
+
+          <div class="image-container">
+            <img src="images/yellowBg.webp" alt="background image" class="contact-orange">
+            <div class="text-overlay"><h3>Connect <br> With Me</h3></div>
+          </div>
+            
+          <div class="card">
+            <h5 class="text-center mb-4">Let's Work Together</h5>
+            <form action="https://formsubmit.co/vertexflows.contact@gmail.com" method="POST">
+              <form class="form-card" onsubmit="event.preventDefault()">
+                <input type="hidden" name="_subject" value="VertexFlows Inquiry">
+                <input type="hidden" name="_next" value="index.html">
+                <div class="row justify-content-between text-left">
+                  <div class="form-group col-sm-6 flex-column d-flex">
+                    <label class="form-control-label px-3">First name<span class="text-danger"> </span></label>
+                    <input type="text" id="fname" name="fname" placeholder="Enter your first name">
+                  </div>
+                  <div class="form-group col-sm-6 flex-column d-flex">
+                    <label class="form-control-label px-3">Last name<span class="text-danger"> </span></label>
+                    <input type="text" id="lname" name="lname" placeholder="Enter your last name">
+                  </div>
+                </div>
+                <div class="row justify-content-between text-left">
+                  <div class="form-group col-sm-6 flex-column d-flex">
+                    <label class="form-control-label px-3">Email<span class="text-danger"> </span></label>
+                    <input type="text" id="email" name="email" placeholder="">
+                  </div>
+                  <div class="form-group col-sm-6 flex-column d-flex">
+                    <label class="form-control-label px-3">Phone number<span class="text-danger"> </span></label>
+                    <input type="text" id="mob" name="mob" placeholder="">
+                  </div>
+                </div>
+                <div class="row justify-content-between text-left">
+                  <div class="form-group col-12 flex-column d-flex">
+                    <label class="form-control-label px-3">What are we working on?<span class="text-danger"> </span></label>
+                    <input type="text" id="ans" name="ans" placeholder="">
+                  </div>
+                </div>
+                <div class="row justify-content-end">
+                  <div class="form-group col-sm-6">
+                    <button class="fbutton btn-block btn-primary" type="submit">Submit</button>
+                  </div>
+                </div>
+              </form>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="primary-footer | padding-block-700 background-orange text-white">
+      <div class="container">
+        <div class="primary-footer-wrapper">
+          <div>       
+            <a href="#"><img class="lynLogo" src="images/logo.png" alt="Manage"></a>
+            <ul class="social-list" style="margin-left: 20px" role="list" aria-label="social media links">
+              <li><a aria-label="instagram" href="https://www.instagram.com/vertexflows" target="_blank">
+                <svg class="social-icon">
+                  <use xlink:href="images/socials.svg#instagram"></use>
+                </svg></a>
+              </li>
+              <li><a aria-label="youtube" href="https://www.youtube.com/vertexflows" target="_blank">
+                <svg class="social-icon">
+                  <use xlink:href="images/socials.svg#youtube"></use>
+                </svg></a>
+              </li>
+              <li><a aria-label="tiktok" href="https://www.tiktok.com/@vertexflows" target="_blank">
+                <svg class="social-icon">
+                  <use xlink:href="images/socials.svg#tiktok"></use>
+                </svg></a>
+              </li>
+              <li><a aria-label="calendly" href="https://calendly.com/vertexflows" target="_blank">
+                <svg class="social-icon">
+                  <use xlink:href="images/socials.svg#calendar-days-solid"></use>
+                </svg></a>
+              </li>
+            </ul>
+          </div>
+  
+          <div class="primary-footer-nav">
+            <nav class="footer-nav">
+              <ul class="flow" aria-label="footer" role="list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="primary-footer-form">
+            <form action="">
+              <input type="email" class="footer-email" placeholder="Share Your Email!"><button class="button" data-shadow="none">Send</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="main.js"></script>
+  </body>
+</html>

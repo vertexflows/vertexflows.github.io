@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+  }
+
+
+.poem{
+    line-height: 2rem;
+
+}
+p {
+    font-size: 20px;
+  }
+
+
+/* Image Container */
+.main-container{
+    position: relative;
+    margin-top: 6rem;
+    width: 100px;
+    margin-bottom: 5.5rem;
+   
+}
+
+#lyn2{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+    left: -70px;
+    transform: scale(1.7) rotate(-15deg);
+   
+}
+#lyn3{
+    position: absolute;
+    z-index: 2;    /* Place this image in front of the img1 */
+    width: 100%;
+    left: 7px;
+    top: 0;
+    transform: scale(2.8)
+}
+#lyn1{
+    position: absolute;
+    z-index: 3;    
+    width: 100%;
+    left: 55px;
+    top:0;
+    transform: scale(1.5) rotate(15deg);
+}
+
+.once{
+  font-size: 45px;
+}
+
+.about-image-container{
+    background-image: url("images/Yellow\ Stripe\ 3.webp");
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    /* height: 50px; */
+    /* position: relative; */
+}
+
+
+.main-grid{
+    display: grid;
+    place-content: center;
+}
+
+.barrows{
+  position: relative;
+}
+
+.bluearrows{
+  width: 50px;
+  position: absolute;
+  top: -15px;
+  left: 45px;
+  transform: scale(3.5);
+}
+
+.aboutcoach{
+  line-height: 1;
+}
+
+.coachspan a:link{
+  color: black;
+}
+.coachspan a:visited{
+  color:black
+}
+
+.methods{
+  position: relative;
+  background-image: url("images/Blue\ Stripe\ 3\ .webp");
+  background-position: right;
+  background-repeat: no-repeat; 
+  background-size: cover;
+  /* background-size: 300px; */
+  height:450px
+}
+
